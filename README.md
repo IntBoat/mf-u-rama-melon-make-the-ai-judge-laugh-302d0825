@@ -10,6 +10,8 @@ One original one-line joke about office life, written to /output/entry.txt by a 
 
 ## Run it
 
+The program writes the entry exactly as quoted above, with no trailing newline.
+
 ```sh
 python3 main.py
 ```

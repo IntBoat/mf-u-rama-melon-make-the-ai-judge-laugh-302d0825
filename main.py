@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Make the AI Judge Laugh (make.fun).
 
-Writes the entry -- one original one-line text -- to /output/entry.txt,
-where the sealed scorer reads it.
+Writes the entry -- a single original one-line text -- to
+/output/entry.txt, where the sealed scorer reads it.
 """
 
 import os
 
+# The entry itself: exactly one sentence, written with no trailing newline.
 ENTRY = 'Our printer only jams when someone important is watching, which is why IT calls it the most reliable performance review in the building.'
 
 
